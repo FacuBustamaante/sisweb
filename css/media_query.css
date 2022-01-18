@@ -1,0 +1,54 @@
+@media (max-width: 500px){
+    body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /*-----HEADER-----*/    
+    .ul{
+        visibility: hidden;
+    }
+
+    /*-----ABOUT US-----*/
+
+    #quienes-somos{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .text-quienes-somos{
+        padding: 0;
+    }
+
+    .h1-quienes-somos{
+        text-align: center;
+    }
+
+    .p-quienes-somos{
+        text-align: center;
+    }
+
+    /*-----SERVICES-----*/
+
+    .p-servicios{
+        width: 70%;
+    }
+
+    /*-----CONTACT-----*/
+
+    .p-contact{
+        width: 70%;
+    }
+
+    /*-----FOOTER-----*/
+
+    .providers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .prov-img{
+        padding: 5px 0;
+    }
+}
